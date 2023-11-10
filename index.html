@@ -3,22 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,300;1,500;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <title>TheBox</title>
   </head>
   <body>
-
-    <nav class='navigation'>
-        <img src="" 
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <div class="container navigation-content">
+        <img
+          class="company-logo"
+          src="/assets/logo.png"
+          alt="Company Logo - The Box"
+        />
+        <ul class="nav-items-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About Us</li>
+          <li class="nav-item">Projects</li>
+          <li class="nav-item disabled-nav-item">Services</li>
+          <li class="nav-item cto-nav-item">Contact Us</li>
+        </ul>
+      </div>
     </nav>
-    <header></header>
-    <main>
-      <section></section>
-    </main>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="container main-header-content">
+        <h1 class="main-header-heading">vhs ressurection is our mission</h1>
+      </div>
+      <div class="main-header-overlay"></div>
+    </header>
   </body>
 </html>
